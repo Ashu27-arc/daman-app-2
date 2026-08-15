@@ -3,9 +3,7 @@
 // Dynamic Expo config — replaces app.json for richer configuration.
 // ─────────────────────────────────────────────────────────────────────────────
 
-import { type ExpoConfig, type ConfigContext } from "expo/config";
-
-export default ({ config }: ConfigContext): ExpoConfig => ({
+module.exports = ({ config }) => ({
   ...config,
   name: "Daman VIP Games",
   slug: "daman-app",
@@ -67,7 +65,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     apiUrl: process.env.EXPO_PUBLIC_API_URL ?? "",
     mockMode: process.env.EXPO_PUBLIC_MOCK_MODE === "true",
     eas: {
-      projectId: "", // Set after running `eas init`
+      projectId: "f7d97e86-f0c2-4814-b20a-64b5950e3377",
     },
   },
 
