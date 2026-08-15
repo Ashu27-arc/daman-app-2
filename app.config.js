@@ -16,7 +16,7 @@ module.exports = ({ config }) => ({
 
   // ─── Android ────────────────────────────────────────────────────────────────
   android: {
-    package: "com.damanvipgames.app",
+    package: "com.damanapp.app",
     adaptiveIcon: {
       backgroundColor: "#0a0a0f",
       foregroundImage: "./assets/images/android-icon-foreground.png",
@@ -37,7 +37,7 @@ module.exports = ({ config }) => ({
 
   // ─── iOS (not the primary target but kept for completeness) ─────────────────
   ios: {
-    bundleIdentifier: "com.damanvipgames.app",
+    bundleIdentifier: "com.damanapp.app",
     supportsTablet: false,
   },
 
