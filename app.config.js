@@ -69,7 +69,6 @@ module.exports = ({ config }) => ({
       projectId: "f7d97e86-f0c2-4814-b20a-64b5950e3377",
     },
   },
-  owner: "aarush028",
 
   // ─── Experiments ─────────────────────────────────────────────────────────────
   experiments: {

@@ -11,7 +11,8 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_MOCK_MODE": "true"
+        "EXPO_PUBLIC_MOCK_MODE": "true",
+        "EAS_SKIP_AUTO_FINGERPRINT": "1"
       },
       "cache": {
         "disabled": false
@@ -23,7 +24,8 @@
         "buildType": "apk"
       },
       "env": {
-        "EXPO_PUBLIC_MOCK_MODE": "false"
+        "EXPO_PUBLIC_MOCK_MODE": "false",
+        "EAS_SKIP_AUTO_FINGERPRINT": "1"
       },
       "cache": {
         "disabled": false
@@ -36,7 +38,8 @@
         "buildType": "app-bundle"
       },
       "env": {
-        "EXPO_PUBLIC_MOCK_MODE": "false"
+        "EXPO_PUBLIC_MOCK_MODE": "false",
+        "EAS_SKIP_AUTO_FINGERPRINT": "1"
       },
       "cache": {
         "disabled": false
