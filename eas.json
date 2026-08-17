@@ -12,6 +12,9 @@
       },
       "env": {
         "EXPO_PUBLIC_MOCK_MODE": "true"
+      },
+      "cache": {
+        "disabled": false
       }
     },
     "preview": {
@@ -21,6 +24,9 @@
       },
       "env": {
         "EXPO_PUBLIC_MOCK_MODE": "false"
+      },
+      "cache": {
+        "disabled": false
       }
     },
     "production": {
@@ -31,6 +37,9 @@
       },
       "env": {
         "EXPO_PUBLIC_MOCK_MODE": "false"
+      },
+      "cache": {
+        "disabled": false
       }
     }
   },
